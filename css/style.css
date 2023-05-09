@@ -57,17 +57,22 @@ section{
     background-color: #EE82EE;
 }
 
-.second-section > * {
-    width: 30%;
+.box-blue , .box-pink {
     height: 300px;
 }
 
-.second-section > .box-blue{
+.box-blue{
+    width: 30%;
     background-color: #1E90FF;
 }
 
-.second-section > .box-pink{
+.box-pink{
+    width: 20%;
     background-color: #FFC0CB;
+}
+
+.third-section{
+    background-color: #D3D3D3;
 }
 
 
@@ -82,6 +87,6 @@ nav > * {
     border: 1px dashed black;
 }
 
-.second-section > * {
+.box-blue , .box-pink{
     border: 1px dashed black;
 }
