@@ -47,11 +47,11 @@ section{
     padding: 30px 0;
 }
 
-.first-section{
+.background-blue{
     background-color: #00008B;  
 }
 
-.first-section > * {
+.background-blue > * {
     width: 700px;
     height: 300px;
     background-color: #EE82EE;
@@ -71,8 +71,14 @@ section{
     background-color: #FFC0CB;
 }
 
-.third-section{
+.background-grey{
     background-color: #D3D3D3;
+}
+
+.box-green{
+    width: 750px;
+    height: 600px;
+    background-color: #228B22;
 }
 
 
@@ -80,13 +86,13 @@ section{
 /* DEBUG */
 
 nav > * {
-    border: 1px dashed black;
+    border: 2px dashed black;
 }
 
-.first-section > * {
-    border: 1px dashed black;
+.background-blue> * {
+    border: 2px dashed black;
 }
 
-.box-blue , .box-pink{
-    border: 1px dashed black;
+.box-blue , .box-pink, .box-green{
+    border: 2px dashed black;
 }
