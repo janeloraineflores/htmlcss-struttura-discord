@@ -37,7 +37,28 @@ nav > *{
 }
 
 
+/* MAIN */
+
+.first-section{
+    max-width: 100%;
+    background-color: #00008B;
+    display: flex;
+    justify-content: center;
+}
+
+.first-section > div{
+    width: 700px;
+    height: 300px;
+    background-color: #EE82EE;
+    margin: 30px 0;
+}
+
+
 /* DEBUG */
 nav > * {
+    border: 1px dashed black;
+}
+
+.first-section > div{
     border: 1px dashed black;
 }
