@@ -81,6 +81,30 @@ section{
     background-color: #228B22;
 }
 
+.background-black{
+    background-color: #23272A;
+}
+
+.box-big , .box-small {
+    height: 300px;
+}
+
+.box-small{
+    width: 15%;
+    background-color: #F08080;
+}
+
+.box-big{
+    width: 35%;
+    background-color: #20B2AA;
+    display: flex;
+}
+
+.box-big > * {
+    height: 300px;
+    width: calc(100% / 4)
+}
+
 
 
 /* DEBUG */
@@ -93,6 +117,10 @@ nav > * {
     border: 2px dashed black;
 }
 
-.box-blue , .box-pink, .box-green{
+.box-blue , .box-pink, .box-green, .box-big , .box-small{
     border: 2px dashed black;
+}
+
+.box-big > * {
+    border: 2px dashed white;
 }
