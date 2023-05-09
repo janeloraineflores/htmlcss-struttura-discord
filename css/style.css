@@ -5,3 +5,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* HEADER */
+
+header{
+    max-width: 100%;
+    background-color: #ADD8E6;
+    padding: 10px;
+}
+
+nav{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #DAA520;
+    display: flex;
+}
+
+nav > *{
+    padding: 5px;
+}
+
+.nav-small{
+    width: 25%;
+    
+}
+
+.nav-big{
+    width: 50%;
+    text-align: center;
+}
+
+
+/* DEBUG */
+nav > * {
+    border: 1px dashed black;
+}
