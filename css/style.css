@@ -6,11 +6,16 @@
     box-sizing: border-box;
 }
 
+/* GENERAL */
+
+body{
+    max-width: 100%;
+}
+
 
 /* HEADER */
 
 header{
-    max-width: 100%;
     background-color: #ADD8E6;
     padding: 10px;
 }
@@ -41,7 +46,6 @@ nav > *{
 /* MAIN */
 
 section{
-    max-width: 100%;
     display: flex;
     justify-content: center;
     padding: 30px 0;
@@ -107,6 +111,30 @@ section{
 
 
 
+/* FOOTER */
+
+footer{
+    margin-top: 1px;
+    padding-top: 20px
+}
+
+.container-footer{
+    background-color: #7FFFD4;
+    width: 750px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-footer > * {
+    background-color: #FFB6C1;
+    padding: 10px;
+}
+
+
+
 /* DEBUG */
 
 nav > * {
@@ -123,4 +151,8 @@ nav > * {
 
 .box-big > * {
     border: 2px dashed white;
+}
+
+.container-footer > * {
+    border: 2px dashed black;
 }
